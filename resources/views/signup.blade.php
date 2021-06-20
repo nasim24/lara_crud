@@ -31,8 +31,7 @@
 			<div class="col-sm-12 mt-2 offset-sm-2 mb-2">
 				<label>Have already an account ?</label> <a href="{{url('login')}}" class="">Login here</a> 
 			</div>
-
-            
+			            
                  @if(session('msg'))
                  <p class="text-center alert alert-danger">{{session('msg')}}</p>
                  @endif

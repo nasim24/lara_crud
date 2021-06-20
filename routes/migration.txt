@@ -1,0 +1,19 @@
+important comand for migration:
+
+create -> php artisan migaration:create_tablename 
+        -> php artisan migrate
+
+reset table -> php artisan migrate:reset
+
+rollback -> remove the last migrate table from db
+         ->php artisan migrate:rollback
+         ->php artisan migrate:rollback --step 2 (remove last two table has created)
+
+Refresh -> (remove all table and create fresh new table)
+        -> php artisan migrate:refresh
+
+Signle Migration ->(migrate specific table)
+        ->php artisan migate --path/database/migration/tablename;
+
+
+

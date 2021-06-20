@@ -43,9 +43,9 @@ class Sfy extends Controller
                     $pwd=$row->Password;                                        
                 }
                 if($pwd==$password)
-                {          
-                             
+                {                                       
                     return redirect('profile');
+                    
                 }
                 else
                 {
